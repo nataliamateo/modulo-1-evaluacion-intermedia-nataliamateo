@@ -38,16 +38,16 @@ li.menu {
 }
 .text {
   display: flex;
-  flex-direction: row;
+  flex-direction: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+  align-items: center;
   width: 20%;
-
  }
 .style-text {
   color: #ffffff;
   font-size: 30px;
+  text-align: center;
 }
 @media all and (min-width:768px){
   .style-text {
