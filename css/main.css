@@ -4,12 +4,11 @@
   box-sizing: border-box;
   width: 100vw;
 }
-
 .nav {
   position: fixed;
   z-index: 300;
   height: 20%;
-  }
+}
 .logo {
   display: block;
   width: 155px;
@@ -43,20 +42,22 @@ li.menu {
   justify-content: center;
   align-items: center;
   width: 20%;
- }
+  padding: 40%;
+}
 .style-text {
   color: #ffffff;
   font-size: 30px;
   text-align: center;
 }
-@media all and (min-width:768px){
+@media all and (min-width: 768px) {
   .style-text {
     font-size: 40px;
-    }
-    .menu-container {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      list-style: none;
-      margin: 10px, 0, 13px, 0;
-    }
+  }
+  .menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 10px, 0, 13px, 0;
+  }
+}
