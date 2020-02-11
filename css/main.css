@@ -1,0 +1,46 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  position: fixed;
+  z-index: 300;
+}
+.logo {
+  display: flex;
+  width: 155px;
+  margin: auto;
+  text-align: center;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretchs;
+  list-style: none;
+  margin: 10px, 0, 13px, 0;
+}
+li.menu {
+  font-family: "Rubik", sans-serif;
+  color: #4a4a4a;
+  list-style: none;
+  font-size: 16px;
+  padding-left: 20px;
+}
+#main-container {
+  position: absolute;
+  top: 50%;
+  height: 100vh;
+  background-color: #3cdbc0;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+.style-text {
+  color: #ffffff;
+  font-size: 30px;
+}
