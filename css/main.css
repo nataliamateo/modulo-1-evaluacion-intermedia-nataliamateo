@@ -9,12 +9,11 @@
   position: fixed;
   z-index: 300;
   height: 20%;
-}
+  }
 .logo {
-  display: flex;
+  display: block;
   width: 155px;
-  margin: auto;
-  text-align: center;
+  margin: 0, auto;
 }
 .menu-container {
   display: flex;
@@ -42,8 +41,8 @@ li.menu {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
-  width: 100%;
+  
+  width: 20%;
 
  }
 .style-text {
