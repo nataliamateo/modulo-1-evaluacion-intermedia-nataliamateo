@@ -4,9 +4,11 @@
   box-sizing: border-box;
   width: 100vw;
 }
+
 .nav {
   position: fixed;
   z-index: 300;
+  height: 20%;
 }
 .logo {
   display: flex;
@@ -33,6 +35,7 @@ li.menu {
   top: 50%;
   height: 100vh;
   background-color: #3cdbc0;
+  width: 100%;
 }
 .text {
   display: flex;
@@ -41,6 +44,7 @@ li.menu {
   justify-content: center;
   align-content: center;
   width: 100%;
+
  }
 .style-text {
   color: #ffffff;
