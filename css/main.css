@@ -60,4 +60,10 @@ main {
     flex-direction: row;
     justify-content: space-between;
   }
+  .logo-adalab {
+    padding: 20px 0px 20px 30px;
+  }
+  .link-menu {
+    padding: 10px 30px 10px 10px;
+  }
 }
