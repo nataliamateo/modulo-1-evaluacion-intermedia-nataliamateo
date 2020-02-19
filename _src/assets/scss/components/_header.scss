@@ -1,12 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  height: 100vh;
-  font-family: "Rubik", sans-serif;
-}
 header {
   height: 20%;
   position: fixed;
@@ -32,28 +23,7 @@ nav {
   color: #4a4a4a;
   padding: 10px;
 }
-main {
-  height: 80%;
-  position: absolute;
-  top: 20%;
-  width: 100%;
-  background-color: #3cdbc0;
-}
-.style-text {
-  text-transform: capitalize;
-  font-size: 30px;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30%;
-}
-
 @media all and (min-width: 768px) {
-  .style-text {
-    font-size: 40px;
-    margin-top: 15%;
-  }
   nav {
     height: 100%;
     display: flex;

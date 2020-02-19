@@ -1,0 +1,8 @@
+@import "core/reset.scss";
+
+body {
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+@import "components/_header";
+@import "components/_mainprincipal";
